@@ -5,7 +5,7 @@
 
 **Thoughts:** It wasn't really that difficult to set up individual accounts and authenticate users when I built [RubberCat](http://www.rubbercat.info). Why does dotnet seem like it's so much more complicated to set up? Looking to use JWT tokens, which should be fine for both web and native mobile clients.
 
-**Link to work:**
+**Links:**
 [The Channel9 Video](https://channel9.msdn.com/Events/dotnetConf/2016/Building-Secure-Web-APIs-with-ASPNET-Core)
 [ASP.NET Core Token Auth Guide](https://stormpath.com/blog/token-authentication-asp-net-core)
 
@@ -16,5 +16,14 @@ Sifted through the SPA template and I think I can use this as a base, and modify
 
 **Thoughts:** Trying to build this with Core was a mistake. It's just not ready yet. Core web api templates with individual accounts are not expected until the 2.0 version, and the current version is 1.1, I believe. I'll use the .NET framework for now and host on Azure.
 
-**Link to work:**
-[ASP.NET Core Schedule and Roadmap](https://github.com/aspnet/Home/wiki/Roadmap)
+**Links:**
+
+### Day 3: June 4, 2017
+**Today's Goal:** I want to take a closer look at the authentication in the SPA template. Can this be used on non-web clients? I'd also like to create the models and set up the code first migrations.
+
+**Today's Progress:** I didn't change the user model or create any other models. Looking for a thorough explanation of individual *local* accounts on web api 2. Found this.
+
+**Thoughts:** It looks like having an identity server as part of the app might be what is needed to implement tokens on individual accounts. The tut below should have a hint.
+
+ **Links:**
+ [](https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/individual-accounts-in-web-api_)
