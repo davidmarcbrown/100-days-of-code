@@ -6,7 +6,9 @@
 **Thoughts:** It wasn't really that difficult to set up individual accounts and authenticate users when I built [RubberCat](http://www.rubbercat.info). Why does dotnet seem like it's so much more complicated to set up? Looking to use JWT tokens, which should be fine for both web and native mobile clients.
 
 **Links:**
+
 [The Channel9 Video](https://channel9.msdn.com/Events/dotnetConf/2016/Building-Secure-Web-APIs-with-ASPNET-Core)
+
 [ASP.NET Core Token Auth Guide](https://stormpath.com/blog/token-authentication-asp-net-core)
 
 ### Day 2: June 3, 2017
@@ -26,4 +28,16 @@ Sifted through the SPA template and I think I can use this as a base, and modify
 **Thoughts:** It looks like having an identity server as part of the app might be what is needed to implement tokens on individual accounts. The tut below should have a hint.
 
  **Links:**
- [](https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/individual-accounts-in-web-api_)
+
+ [Secure a Web API with Individual Accounts and Local Login in ASP.NET Web API 2.2](https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/individual-accounts-in-web-api)
+
+ ### Day 4: June 5, 2017
+**Today's Goal:** Walk through the tutorial in the link left in day 3. Build this sample app.
+
+**Today's Progress:** I did my best to build the sample app from the instructions in the repo's readme, but unfortunately every call to the api would return the home view! I downloaded the sample project before I gave up for the evening and it works ok, so there must be a configuration issue with the template project in VS 2015. I tried VS 2017 at first, but I was unable to get https to work correctly.
+
+**Thoughts:** I'm flabbergasted at the complexity of what should be a very simple task - authenticating individual accounts on a web api! I remember that Passport on Node way back when was a snap in comparison.
+
+**Links:**
+
+[Secure a Web API with Individual Accounts and Local Login (Project Source)](https://github.com/MikeWasson/LocalAccountsApp)
