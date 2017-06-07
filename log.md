@@ -31,7 +31,7 @@ Sifted through the SPA template and I think I can use this as a base, and modify
 
  [Secure a Web API with Individual Accounts and Local Login in ASP.NET Web API 2.2](https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/individual-accounts-in-web-api)
 
- ### Day 4: June 5, 2017
+### Day 4: June 5, 2017
 **Today's Goal:** Walk through the tutorial in the link left in day 3. Build this sample app.
 
 **Today's Progress:** I did my best to build the sample app from the instructions in the repo's readme, but unfortunately every call to the api would return the home view! I downloaded the sample project before I gave up for the evening and it works ok, so there must be a configuration issue with the template project in VS 2015. I tried VS 2017 at first, but I was unable to get https to work correctly.
@@ -41,3 +41,16 @@ Sifted through the SPA template and I think I can use this as a base, and modify
 **Links:**
 
 [Secure a Web API with Individual Accounts and Local Login (Project Source)](https://github.com/MikeWasson/LocalAccountsApp)
+
+### Day 5: June 6, 2017
+**Today's Goal:** I'm sure at this point I'll be sticking with the full dotnet framework, but I wanted to take a minute and look up token provision for Core. I'll compare those implementations with the OAuth provider libraries in the full framework. Specifically, I had re-read the [ASP.NET Core Token Auth Guide](https://stormpath.com/blog/token-authentication-asp-net-core) and looked over the code carefully. I'd like for the framework to handle the logistics of writing and reading user info (like hashed passwords) to the data store for me, and I think the full framework can do that while the Core library is still maturing. Going to run through the tutorial in today's first link.
+
+**Thoughts:** I think I'll follow the third link's tutorial instead so I can focus on Identity.
+
+**Links:**
+
+[Create a RESTful API with authentication using Web API and Jwt](http://www.developerhandbook.com/c-sharp/create-restful-api-authentication-using-web-api-jwt/)
+
+[Introduction to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity)
+
+[ASP.NET Identity 2.1 with ASP.NET Web API 2.2 (Accounts Management) – Part 1](http://bitoftech.net/2015/01/21/asp-net-identity-2-with-asp-net-web-api-2-accounts-management/)
