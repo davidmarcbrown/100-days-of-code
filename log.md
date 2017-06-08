@@ -54,3 +54,34 @@ Sifted through the SPA template and I think I can use this as a base, and modify
 [Introduction to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity)
 
 [ASP.NET Identity 2.1 with ASP.NET Web API 2.2 (Accounts Management) – Part 1](http://bitoftech.net/2015/01/21/asp-net-identity-2-with-asp-net-web-api-2-accounts-management/)
+
+### Day 6: June 7, 2017
+**Today's Goal:** Continue to cram web api authentication into my head.
+
+**Thoughts:** Dominick's talk was great but didn't cover how to safely build a local authentication server. I've researched a couple books that seem to have some recipes I could examine. At this point though, I'm thinking I should be able to take a request handler and pass it through to Identity.
+
+**Links:**
+
+[Dominick Baier - Securing ASP.NET Web APIs](https://vimeo.com/43603474)
+
+**Books:**
+
+[ASP.NET Web API 2 Recipes: A Problem-Solution Approach](https://www.amazon.com/ASP-NET-Web-API-Recipes-Problem-Solution/dp/1430259809/ref=sr_1_1?ie=UTF8&qid=1496881821&sr=8-1&keywords=ASP.NET+Web+API+2+Recipes)
+
+[Pro ASP.NET Web API Security: Securing ASP.NET Web API](https://www.amazon.com/Pro-ASP-NET-Web-API-Security/dp/1430257822/ref=sr_1_1?s=books&ie=UTF8&qid=1496880858&sr=1-1&keywords=Pro+ASP.NET+Web+API+Security)
+
+[Designing Evolvable Web APIs with ASP.NET](http://shop.oreilly.com/product/0636920026617.do)
+
+**For tomorrow:**
+
+Finish [the tut you started yesterday](http://bitoftech.net/2015/01/21/asp-net-identity-2-with-asp-net-web-api-2-accounts-management/)
+
+Check out these links:
+
+[OWIN OAuth 2.0 Authorization Server](https://docs.microsoft.com/en-us/aspnet/aspnet/overview/owin-and-katana/owin-oauth-20-authorization-server)
+
+[Introduction (to OAuth 2.0)](https://tools.ietf.org/html/rfc6749#section-1)
+
+[Host authentication and Web API with OWIN and active vs. passive authentication middleware](https://brockallen.com/2013/10/27/host-authentication-and-web-api-with-owin-and-active-vs-passive-authentication-middleware/)
+
+[Login & Authentication for your ASP.NET Core Web API – The Big Picture](https://jonhilton.net/2017/05/03/login-authentication-asp-net-core-web-api-big-picture/)
