@@ -85,3 +85,12 @@ Check out these links:
 [Host authentication and Web API with OWIN and active vs. passive authentication middleware](https://brockallen.com/2013/10/27/host-authentication-and-web-api-with-owin-and-active-vs-passive-authentication-middleware/)
 
 [Login & Authentication for your ASP.NET Core Web API – The Big Picture](https://jonhilton.net/2017/05/03/login-authentication-asp-net-core-web-api-big-picture/)
+
+### Day 7: June 8, 2017
+**Today's Goal:** This tutorial.
+
+**Thoughts:** Wasn't paying much attention, but put together most of the tut.
+
+**Links:**
+
+[ASP.NET Identity 2.1 with ASP.NET Web API 2.2 (Accounts Management) – Part 1](http://bitoftech.net/2015/01/21/asp-net-identity-2-with-asp-net-web-api-2-accounts-management/)
