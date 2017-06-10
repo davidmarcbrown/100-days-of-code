@@ -94,3 +94,14 @@ Check out these links:
 **Links:**
 
 [ASP.NET Identity 2.1 with ASP.NET Web API 2.2 (Accounts Management) – Part 1](http://bitoftech.net/2015/01/21/asp-net-identity-2-with-asp-net-web-api-2-accounts-management/)
+
+### Day 8: June 9, 2017
+**Today's Goal:** I ran through this tutorial, which uses the full framework Web API template with individual accounts. It's actually pretty simple and it drives me nuts that I couldn't figure out the process from the docs. Token auth is already set up and basically ready to use from the Web API template. I built this demo and also managed to edit records that don't belong to my user.
+
+**Thoughts:** I wish I knew why I couldn't find something that did this in text form. I don't really enjoy learning from videos that much.
+
+**Tomorrow:** Put together the Tarefinhas API using the full framework Web API template with individual accounts!
+
+**Links:**
+
+[OAuth with ASP.NET Identity](https://channel9.msdn.com/Blogs/MVP-VisualStudio-Dev/OAuth-with-ASPNET-Identity)
